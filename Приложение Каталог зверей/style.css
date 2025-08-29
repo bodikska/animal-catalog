@@ -1,0 +1,119 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+.header-title {
+    display: block;
+    margin: 0 auto;
+    margin-top: 20px;
+    margin-bottom: 20px;
+    text-align: center;
+
+}
+.serch-Animals {
+    max-width: 300px;
+    display: block;
+    margin: 20px auto;
+}
+#choose-Animal {
+     padding: 5px;
+  font-size: 12px;
+
+
+  border: 1px solid #ccc;
+  border-radius: 6px;
+  appearance: none; /* убирает стрелку в некоторых браузерах */
+}
+.search-input {
+    padding: 5px;
+}
+.hrefNav {
+    text-decoration: none;
+    color: black;
+}
+
+.hrefNav:hover {
+    color: white;
+    background-color: black;
+    cursor: pointer;
+}
+.navigate {
+    display: flex;
+    justify-content: space-around;
+}
+.navigatetabInf {
+    width: 33.3%;
+    height: 50px;
+    text-align: center;
+    line-height: 50px;
+}
+
+.alloverviewAnimals {
+    color: black;
+    display: block;
+    text-decoration: none;
+    margin-top: 10px;
+}
+.alloverviewAnimals:hover {
+    color: white;
+    background-color: cadetblue;
+    border-radius: 10px;
+}
+.Animals-tabs {
+    display: grid;
+    align-items: center;
+    justify-items: center;
+    grid-template-columns:  1fr 1fr 1fr ;
+    grid-template-rows:  1fr 1fr 1fr ;
+}
+.flexAnimal {
+    margin: 20px;
+    width: 25%;
+}
+.flexAnimal img {
+    display: block;
+    margin: 0 auto;
+    height: 85px;
+    width: 85px;
+}
+.flexAnimal h4,
+.flexAnimal  a,
+.flexAnimal p {
+    text-align: center;
+    width: 100%;
+    margin-top: 5px;
+}
+.List-animals,
+.discription-animals {
+    margin: 20px auto;
+    max-width: 900px;
+    border-radius: 5px;
+    border: 0.5px solid rgb(160, 157, 157);
+    box-shadow: 2px 2px 2px 2px;
+}
+
+.OverviewData {
+    margin-top: 40px;
+    font-size: 18px;
+    margin-left: 15px;
+    margin-right: 15px;
+    margin-bottom: 20px;
+    border: 2px solid pink;
+    border-radius: 10px;
+    padding: 20px;
+}
+
+
+@media screen and (max-width: 900px) {
+    .Animals-tabs {
+    display: grid;
+    align-items: center;
+    justify-items: center;
+    grid-template-columns:  1fr 1fr  ;
+    grid-template-rows:  1fr 1fr  ;
+}
+.List-animals,
+.discription-animals {
+    max-width: 700px;
+}
+}
